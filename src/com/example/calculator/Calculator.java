@@ -13,7 +13,9 @@ public class Calculator {
         System.out.println("필요한 연산을 입력해주세요. (+, -, *, /");
         char charAt = sc.next().charAt(0);
 
-        Sytem.out.println("입력 값은 " + num1 + charAt + num2 + " 입니다. 맞습니까?!");
+        System.out.println("입력 값은 " + num1 + charAt + num2 + " 입니다. 맞습니까?!");
+
+        // pussy test
 
     }
 }
