@@ -2,9 +2,9 @@ package com.example.calculator;
 
 import java.util.Scanner;
 
-public class Calculator {
+public class App {
     public static void main(String[] args) {
-         
+
 
         String codeExit = "exit";
         String keep = "";
