@@ -49,7 +49,7 @@ public class App {
 
                 if (num2 == 0) {
                     System.out.println("분모에는 0이 올 수 없습니다. 처음부터 다시 계산해주세요");
-                    continue;
+                    break;
 
                 } else {
                     result = num1 / num2;
@@ -63,12 +63,17 @@ public class App {
 
             System.out.println("더 계산하시겠습니까? (exit 입력 시 종료) ");
 
-        } while (!codeExit.equals(keep));
-        {
+            // 기존
             sc.nextLine();
             keep = sc.nextLine();
             System.out.println(keep);
-        }
-        ;
+        } while (!codeExit.equals(keep));
+
+
+
+
+
+
+
     }
 }
