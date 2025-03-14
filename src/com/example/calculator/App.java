@@ -49,7 +49,7 @@ public class App {
 
                 if (num2 == 0) {
                     System.out.println("분모에는 0이 올 수 없습니다. 처음부터 다시 계산해주세요");
-                    break;
+                    continue;
 
                 } else {
                     result = num1 / num2;
